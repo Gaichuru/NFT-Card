@@ -1,0 +1,65 @@
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: var(--Very-dark-blue-body-BG);
+    font-family:[Outfit](https://fonts.google.com/specimen/Outfit) ;
+    font-weight:300, 400, 600;
+    font-size:18px;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    background-color: var(---very dark bluehsl(216, 50%, 16%));
+    position:relative;
+}
+.line{
+    background-color: var(---very dark blue hsl(215, 32%, 27%));
+}
+.ethereum{
+    background-color: var(---very dark blue hsl(216, 50%, 16%));
+    display: flex;
+
+
+}
+
+.equilibrium{
+    color: hsl(215, 32%, 27%)
+}
+main image{
+    width:300vw;
+    height:400vh;
+}
